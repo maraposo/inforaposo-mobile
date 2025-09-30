@@ -219,13 +219,24 @@ body::before {
     }
     .depoimento {
         flex-direction: column;
-        gap: 4px;
-        margin-bottom: 12px;
+        gap: 8px;
+        margin-bottom: 18px;
         text-align: center;
     }
+    .depoimento blockquote {
+        font-size: 1.15em;
+        padding: 18px;
+    }
+    .depoimento footer {
+        font-size: 1em;
+    }
     .foto-depoimento {
-        width: 56px;
-        height: 56px;
+        width: 72px;
+        height: 72px;
+    }
+    .rodape-redes img {
+        width: 40px !important;
+        height: 40px !important;
     }
     .rodape-inforaposo {
         padding: 18px 0 6px 0;
